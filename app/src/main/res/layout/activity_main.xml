@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#010F2A"
+    tools:context="com.example.admin.csledlightings.MainActivity">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/ivlogo"
+        android:paddingBottom="20dp"
+        android:src="@drawable/logo01"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/ivlogobright"
+        android:paddingBottom="20dp"
+        android:src="@drawable/logo02"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_below="@+id/ivlogo"
+        android:text="CS Led Lightings"
+        android:id="@+id/tvcsled"
+        android:textStyle="bold|italic"
+        android:fontFamily="serif"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/tvcsled"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tvdes"
+        android:text="Indoor Outdoor Residential Official"/>
+</RelativeLayout>
